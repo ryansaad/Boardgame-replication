@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: boardgame
-          image: ryansaad85/Boardgame:latest  # <--- FIXED to match your pipeline
+          image: ryansaad85/boardgame:latest  # <--- FIXED to match your pipeline
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
